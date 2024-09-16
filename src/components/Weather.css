@@ -1,0 +1,40 @@
+.weather {
+    position: absolute;
+   
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #2f4680, #500aef);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; 
+}
+
+.cityname {
+    color: #fff;
+    font-size: 12px; 
+}
+
+.datetime {
+    color: #fff;
+    font-size: 10px; 
+    margin-bottom: 10px; 
+}
+
+.weather-header {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    color: #fff;
+}
+
+.weather-icon {
+    width: 40px; 
+    margin: 10px; 
+}
+
+.temperature {
+    color: #fff;
+    font-size: 20px; 
+    line-height: 1;
+}
